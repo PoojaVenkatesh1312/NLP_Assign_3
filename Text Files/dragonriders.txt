@@ -1,0 +1,27 @@
+Balerion:	Aegon the Conqueror
+Vhagar:	Visenya Targaryen
+Meraxes:	Rhaenys Targaryen
+Balerion:	Maegor the Cruel
+Dreamfyre:	Rhaena Targaryen
+Quicksilver:	Aenys Targaryen
+Quicksilver:	Aegon Targaryen
+Vermithor:	Jaehaerys the Conciliator
+Silverwing:	Alysanne Targaryen
+Vhagar:	Baelon Targaryen
+Meleys:	Rhaenys Targaryen
+Balerion:	Viserys I Targaryen
+Caraxes:	Daemon Targaryen
+Seasmoke:	Laenor Velaryon
+Syrax:	Rhaenyra Targaryen
+Vhagar:	Laena Velaryon
+Sunfyre:	Aegon II Targaryen
+Dreamfyre:	Helaena Targaryen
+Vhagar:	Aemond Targaryen
+Tessarion:	Daeron Targaryen
+Vermax:	Jacaerys Velaryon
+Arrax:	Lucerys Velaryon
+Moondancer:	Baela Targaryen
+Tyraxes:	Joffrey Velaryon
+Drogon:	Daenerys Targaryen
+Viserion (as a wight):	The Night King
+Rhaegal:	Jon Snow
