@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QA System</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7ebeb;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: #0099cc;
+        font-size: 60px;
+        text-shadow: 2px 2px #ccc;
+      }
+      form {
+        margin: 50px auto;
+        width: 80%;
+        max-width: 600px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      label {
+        display: block;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #0099cc;
+      }
+      input[type="text"] {
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        color: #333;
+      }
+      button[type="submit"] {
+        display: block;
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: #0099cc;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        text-shadow: 2px 2px #ccc;
+      }
+      p {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #0099cc;
+        text-shadow: 2px 2px #ccc;
+      }
+      .answer-box {
+        margin-top: 50px;
+        width: 80%;
+        max-width: 600px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+      .book-images {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .book-images img {
+        margin: 0 20px;
+        width: 200px;
+        height: 300px;
+      }
+      .book-images_img2 {
+        position: absolute;
+        bottom:0;
+        right:0;
+        margin: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>QA System</h1>
+    <form action="{{ url_for('answer') }}" method="post">
+      <label for="question">Question:</label>
+      <input type="text" name="question" id="question">
+      <label for="context">Context:</label>
+      <textarea name="context" id="context"></textarea>
+      <button type="submit">Ask</button>
+    </form>
+
+      <div class="answer-box">
+        <p>Answer:</p>
+        <p>{{ answer }}</p>
+      </div>
+
+    <div class="book-images">
+      <img src="https://149461325.v2.pressablecdn.com/wp-content/uploads/2018/12/Rhaena_Targaryen.jpg" >
+    </div>
+      <div class="book-images_img2">
+      <img src="https://comicbookmovie.com/cdn-cgi/image/fit=cover,width=670,height=377,quality=75/images/articles/banners/195440.jpg" alt="Alt text" width="250" height="200">
+    </div>
+  </body>
+</html>
+
+
+
+
+
