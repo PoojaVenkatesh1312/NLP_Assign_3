@@ -1,0 +1,20 @@
+import gradio as gr
+
+def qa_system(question, context):
+    # your QA system logic here
+    return answer
+
+interface = gr.Interface(
+    fn=qa_system,
+    inputs=[
+        gr.inputs.Textbox(label="Question"),
+        gr.inputs.Textbox(label="Context")
+    ],
+    outputs=gr.outputs.Textbox(label="Answer"),
+    title="QA System",
+    theme="default",
+    layout="vertical",
+    allow_flagging=False
+)
+
+interface.launch()
